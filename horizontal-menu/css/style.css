@@ -18,9 +18,9 @@ ul
 
 }
 
-ul li a:hover, .active
+ul li a:hover
 {
-color:rgb(12, 7, 1)
+color:rgb(29, 5, 238)
 }
 
 ul li a
