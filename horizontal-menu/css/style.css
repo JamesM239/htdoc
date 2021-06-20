@@ -1,0 +1,12 @@
+ul li,ul li a
+{
+display: inline-block;
+border: 3px soild blue;
+}
+
+
+{
+ border: 2px solid black; 
+ display: inline-block ;
+ padding: 5px;
+}
