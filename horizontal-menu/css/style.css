@@ -3,6 +3,7 @@ li,li a
 {
 display: inline-block;
 border: 3px soild blue;
+border: 3px solid black;
 display: inline-block;
 padding: 5px;
 }
