@@ -1,8 +1,8 @@
-li, li a
+*{margin: 0; padding: 0;}
+li,li a
 {
 display: inline-block;
 border: 3px soild blue;
-border: 2px solid black; 
-display: inline-block ;
+display: inline-block;
 padding: 5px;
 }
