@@ -20,14 +20,14 @@ ul
 
 ul li a:hover
 {
-color:rgb(29, 5, 238)
+    color:rgb(29, 5, 238)
 }
 
 ul li a
 {
-padding: 10px;
-color: black;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: larger;
-border-radius: 5px 5px 0 0
+    padding: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 5px 5px 0 0
 }
