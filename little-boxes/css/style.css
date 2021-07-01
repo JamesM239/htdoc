@@ -1,0 +1,139 @@
+*{margin: 0; padding: 0;}
+
+div.sky {
+    width: 100%;
+    height: 50vh;
+    border: transparent;
+    background-color:skyblue;  
+}
+
+div.sun {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 25%;
+    width: 150px;
+    height: 150px;
+    border: transparent;
+    background-color:yellow;  
+    border-radius: 1000px;
+    z-index: 100;
+}
+
+div.sunbeam
+{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 25%;
+    width: 150px;
+    height: 150px;
+    border: transparent;
+    background-color:goldenrod;  
+    transform: rotate(41deg);
+}
+
+div.sunbeam-1
+{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 25%;
+    width: 150px;
+    height: 150px;
+    border: transparent;
+    background-color:goldenrod;  
+    transform: rotate(78deg);
+}
+
+div.sunbeam-2
+{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 25%;
+    width: 150px;
+    height: 150px;
+    border: transparent;
+    background-color:goldenrod;  
+    transform: rotate(100deg);
+}
+
+div.sunbeam-3
+{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 25%;
+    width: 150px;
+    height: 150px;
+    border: transparent;
+    background-color:goldenrod;  
+    transform: rotate(145deg);
+}
+
+div.grass {
+    width: 100%;
+    height: 50vh;
+    border-top: thin;
+    border: transparent;
+    background-color:rgb(21, 197, 21);
+    margin-bottom: 5px;
+}
+
+div.pond {
+    position: absolute;
+    top: 58%;
+    left: 20%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 550px;
+    height: 400px;
+    background-color: blue;
+    border-radius: 50% 10% 80% 25% 
+}
+
+div.tree {
+    width: 0;
+    height: 0;
+    margin-top: -370px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(2, 82, 2);
+ }
+div.trunk {
+    position: absolute;
+    background-color: rgb(99, 44, 10);
+    height: 5%;
+    width: 20px;
+    margin-left: 35px;
+} 
+
+div.tree-1 {
+    border-color: transparent transparent rgb(2, 82, 2);
+    border-style: solid;
+    border-width: 0px 200px 200px 200px;
+    height: 0px;
+    width: 0px;
+}
+
+div.trunk-1 {
+    position: absolute;
+    background-color: rgb(99, 44, 10);
+    height: 5%;
+    width: 20px;
+    margin-left: 175px;
+} 
+
+div.tree-2 {
+    border-color: transparent transparent rgb(2, 82, 2);
+    border-style: solid;
+    margin-top: -250px;
+    margin-left: 72%;
+    border-width: 0px 200px 200px 200px;
+    height: 0px;
+    width: 0px;
+}
+
+div.trunk-2 {
+    position: absolute;
+    background-color: rgb(99, 44, 10);
+    height: 5%;
+    width: 20px;
+    margin-left: 81%;
+}
