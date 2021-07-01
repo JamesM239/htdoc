@@ -1,11 +1,14 @@
 *{margin: 0; padding: 0;}
 
+/*Provides the color for the top half of the image. The 50vh gives a viewpoint keeping it centered against the grass. It shape is that of a rectangle*/
+
 div.sky {
     width: 100%;
     height: 50vh;
     border: transparent;
     background-color:skyblue;  
 }
+/* Z-index brings the yellow cicle to above div.sunbeam. The background-color:yellow provides contrast to the circle shape provided by the border-radius. */
 
 div.sun {
     position: absolute;
@@ -19,6 +22,8 @@ div.sun {
     z-index: 100;
 }
 
+/*Goldenrod color to contrast against the yellow of the sun. Transform to rotate the square by 41 degrees. The displacement is used to provide a star effect to the sun*/
+
 div.sunbeam
 {
     position: absolute;
@@ -30,6 +35,8 @@ div.sunbeam
     background-color:goldenrod;  
     transform: rotate(41deg);
 }
+
+/*Goldenrod color to contrast against the yellow of the sun. Transform to rotate the square by 78 degrees. The displacement is used to provide a star effect to the sun*/
 
 div.sunbeam-1
 {
@@ -43,6 +50,8 @@ div.sunbeam-1
     transform: rotate(78deg);
 }
 
+/*Goldenrod color to contrast against the yellow of the sun. Transform to rotate the square by 100 degrees. The displacement is used to provide a star effect to the sun*/
+
 div.sunbeam-2
 {
     position: absolute;
@@ -54,6 +63,8 @@ div.sunbeam-2
     background-color:goldenrod;  
     transform: rotate(100deg);
 }
+
+/*Goldenrod color to contrast against the yellow of the sun. Transform to rotate the square by 145 degrees.*/
 
 div.sunbeam-3
 {
@@ -67,6 +78,7 @@ div.sunbeam-3
     transform: rotate(145deg);
 }
 
+/*Background-color to apply the effect of grass. height:50vh to maintain a relative view height of 50%. It shape is that of a rectangle*/
 div.grass {
     width: 100%;
     height: 50vh;
@@ -76,7 +88,9 @@ div.grass {
     margin-bottom: 5px;
 }
 
-div.pond {
+/*Position absolute using document body. Boarder-Radius is used to provide a non troditional shape. Color blue to add the apperance of water*/
+div.pond 
+{
     position: absolute;
     top: 58%;
     left: 30%;
@@ -88,6 +102,8 @@ div.pond {
     border-radius: 50% 10% 80% 25% 
 }
 
+/*Provides tree tops. This one is narrower due to the use of boarder left,right and bottom to form the shape of a triangle.*/
+
 div.tree {
     width: 0;
     height: 0;
@@ -96,6 +112,9 @@ div.tree {
     border-right: 50px solid transparent;
     border-bottom: 100px solid rgb(2, 82, 2);
  }
+
+/*Position absolute using document body. Applies color to the div to brown through background-color. Positions and placement through margin-left 35px*/
+
 div.trunk {
     position: absolute;
     background-color: rgb(99, 44, 10);
@@ -103,6 +122,8 @@ div.trunk {
     width: 20px;
     margin-left: 35px;
 } 
+
+/*Provides the triangle shape of the tree tops. The color provided by background color with the boarder-width controlling the shape of the tree*/
 
 div.tree-1 {
     border-color: transparent transparent rgb(2, 82, 2);
@@ -112,6 +133,8 @@ div.tree-1 {
     width: 0px;
 }
 
+/*Position absolute using document body. Applies color to the div to brown through background-color. Positions and placement through margin-left at 175px*/
+
 div.trunk-1 {
     position: absolute;
     background-color: rgb(99, 44, 10);
@@ -119,6 +142,8 @@ div.trunk-1 {
     width: 20px;
     margin-left: 175px;
 } 
+
+/*Provides the triangle shape of the tree tops. The color provided by background color with the boarder-width controlling the shape of the tree*/
 
 div.tree-2 {
     border-color: transparent transparent rgb(2, 82, 2);
@@ -129,6 +154,8 @@ div.tree-2 {
     height: 0px;
     width: 0px;
 }
+
+/* Position absolute using document body. Applies color to the div to brown through background-color. Positions and placement through margin-left at 81%*/
 
 div.trunk-2 {
     position: absolute;
