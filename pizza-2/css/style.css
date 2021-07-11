@@ -1,0 +1,90 @@
+*{margin: 0; padding: 0; user-select: none;}
+
+     
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("https://www.stonecoldprofessor.com/img/congruent_pentagon.png");
+}
+
+h1{
+    margin: 10px;
+}
+
+div.links {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+        
+}
+
+div.pizzasize
+{
+ font-size: large;
+}
+legend
+{
+ font-size: larger;
+}
+ul li
+{
+    display: inline-block;
+    list-style: none;
+}
+    img{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .d-flex{
+        display: flex;
+    }
+    
+    .flex-row{
+        flex-direction: row;
+    }
+    
+    .check{
+        padding: 1rem;
+    }
+    
+    .bg-grey{
+        background-color: grey;
+    }
+    
+    .bg-light{
+        background-color: #eee;
+    }
+    
+    .justify-center{
+        justify-content: center;
+    }
+
+    .mb{
+        margin-bottom: 10px;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+
+.card{
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    background-color: white;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.pizza-o{
+    width: 30px;
+    height: auto;
+    margin: 0;
+}
