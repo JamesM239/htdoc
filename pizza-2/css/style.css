@@ -2,10 +2,14 @@
 
      
 body {
-    background-color: #EEE;
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-image: url("https://www.stonecoldprofessor.com/img/congruent_pentagon.png");
+}
+
+h1{
+    margin: 10px;
 }
 
 div.links {
@@ -32,7 +36,8 @@ ul li
     list-style: none;
 }
     img{
-        width: 10rem;
+        width: 5rem;
+        height: 5rem;
     }
     
     .d-flex{
@@ -54,6 +59,32 @@ ul li
     .bg-light{
         background-color: #eee;
     }
-    div.d-flex flex-row bg-grey justify-center{
+    
+    .justify-center{
         justify-content: center;
     }
+
+    .mb{
+        margin-bottom: 10px;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+
+.card{
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    background-color: white;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.pizza-o{
+    width: 30px;
+    height: auto;
+    margin: 0;
+}

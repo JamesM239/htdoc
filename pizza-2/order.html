@@ -1,160 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <title>Order Pizza-2</title>
-      <link rel="stylesheet" type="text/css" href="css/style.css">
 
-      <style>
+<head>
+  <title>Order Pizza-2</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="bg-light">
+  <h1>Order Page</h1>
+
+  <div class="links">
+    <ul>
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./contact.html">Contact</a>
+      </li>
+      <li>
+        <a href="./about.html">About</a>
+      </li>
+      <li>
+        <a href="./order.html">Order</a>
+      </li>
+    </ul>
+  </div>
+  <form method="POST" action="https://www.stonecoldprofessor.com/pizza-order.php">
+
+    <div class="pizzasize"></div>
+    <legend>Pizza Size</legend>
+    <label for="size">Small</label>
+    <input type="radio" id="size" name="size" value="size">
+    <label for="size">Medium</label>
+    <input type="radio" id="size" name="size" value="size">
+    <label for="size">Large</label>
+    <input type="radio" id="size" name="size" value="size">
+    <label for="size">Family</label>
+    <input type="radio" id="size" name="size" value="size">
+    </div>
 
 
+    <div>
+      <label for="cars">Choose a car:</label>
+      <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select>
+    </div>
 
-      </style>
+    <legend>Toppings</legend>
+    <div class="d-flex flex-row bg-grey justify-center">
+      <div class="check">
+        <img src="../pizza-2/img/Cheese.jpg" alt="image" />
+        <div>
+          <input type="checkbox" name="toppings[]">
+          <label for="checkbox">Extra Cheese</label>
+        </div>
+      </div>
+      <div class="check">
+        <img src="../pizza-2/img/Sausage.jpg" alt="image" />
+        <div>
+          <input type="checkbox" name="toppings[]">
+          <label for="checkbox">Sausage</label>
+        </div>
+      </div>
+      <div class="check">
+        <img src="../pizza-2/img/Green Peppers.jpg" alt="image" />
+        <div>
+          <input type="checkbox" name="toppings[]">
+          <label for="checkbox">Green Peppers</label>
+        </div>
+      </div>
+      <div class="check">
+        <img src="../pizza-2/img/Onions.jpg" alt="image" />
+        <div>
+          <input type="checkbox" name="toppings[]">
+          <label for="checkbox">Onions</label>
+        </div>
+      </div>
+      <div class="check">
+        <img src="../pizza-2/img/Mushrooms.jpg" alt="image" />
+        <div>
+          <input type="checkbox" name="toppings[]">
+          <label for="checkbox">Mushrooms</label>
+        </div>
+      </div>
+      <div class="check">
+        <img src="../pizza-2/img/Bacon.jpg" alt="image" />
+        <div>
+          <input type="checkbox" name="toppings[]">
+          <label for="checkbox">Bacpn</label>
+        </div>
+      </div>
+      <div class="check">
+        <img src="../pizza-2/img/Olives.jpg" alt="image" />
+        <div>
+          <input type="checkbox" name="toppings[]">
+          <label for="checkbox">Black Olives</label>
+        </div>
+      </div>
+      <div class="check">
+        <img src="../pizza-2/img/Pepperoni.jpg" alt="image" />
+        <div>
+          <input type="checkbox" name="toppings[]">
+          <label for="checkbox">Pepperoni</label>
+        </div>
+      </div>
+    </div>
 
-    </head>
-   
-  
+    <div class="crust">
+      <label for="crust">Thin</label>
+      <input type="radio" id="crust" name="crust" value="crust">
+      <label for="crust">Thick</label>
+      <input type="radio" id="crust" name="crust" value="crust">
+      <label for="size">Pan</label>
+      <input type="radio" id="crust" name="crust" value="crust">
+      <label for="size">Deep Dish</label>
+      <input type="radio" id="crust" name="crust" value="crust">
+    </div>
+    </div>
 
-
-    <body class="bg-light">
-        <h1>Order Page</h1>
-      
-        <div class="links">
-          <ul>
-          <li>
-            <a href="./index.html">Home</a>
-            </li>
-            <li>
-            <a href="./contact.html">Contact</a>
-            </li>
-            <li>
-            <a href="./about.html">About</a>
-            </li>
-            <li>
-            <a href="./order.html">Order</a>
-            </li>
-          </ul>  
-          </div>
-          <form method="POST" action="https://www.stonecoldprofessor.com/pizza-order.php">
-                
-            <div class="pizzasize"></div>
-                  <legend>Pizza Size</legend>                    
-                  <label for="size">Small</label>
-                  <input type="radio" id="size" name="size" value="size">
-                  <label for="size">Medium</label>
-                  <input type="radio" id="size" name="size" value="size">
-                  <label for="size">Large</label>
-                  <input type="radio" id="size" name="size" value="size">
-                  <label for="size">Family</label>
-                  <input type="radio" id="size" name="size" value="size">
-                  </div>
-
-              <legend>Toppings</legend>
-              <div class="d-flex flex-row bg-grey justify-center"></div>
-              <div class="check">
-                <img src="../pizza-2/img/Cheese.jpg" alt="image"/>
-              <div>
-                  <input type="checkbox" name="toppings[]">
-                  <label for="checkbox">Extra Cheese</label>
-               </div>
-               </div>
-              <div class="check">
-                <img src="../pizza-2/img/Sausage.jpg" alt="image"/>
-              <div>
-                <input type="checkbox" name="toppings[]">
-                <label for="checkbox">Sausage</label>
-              </div>
-              </div>
-              <div class="check">
-                <img src="../pizza-2/img/Green Peppers.jpg" alt="image"/>
-              <div>
-                <input type="checkbox" name="toppings[]">
-                <label for="checkbox">Green Peppers</label>
-              </div>
-              </div>
-              <div class="check">
-                <img src="../pizza-2/img/Onions.jpg" alt="image"/>
-              <div>
-                <input type="checkbox" name="toppings[]">
-                <label for="checkbox">Onions</label>
-              </div>
-              </div>
-                <div class="check">
-                  <img src="../pizza-2/img/Mushrooms.jpg" alt="image"/>
-              <div>
-                  <input type="checkbox" name="toppings[]">
-                  <label for="checkbox">Mushrooms</label>
-              </div>
-              </div>
-              <div class="check">
-                  <img src="../pizza-2/img/Bacon.jpg" alt="image"/>
-              <div>
-                  <input type="checkbox" name="toppings[]">
-                  <label for="checkbox">Bacpn</label>
-                </div>
-                </div>
-              <div class="check">
-                  <img src="../pizza-2/img/Olives.jpg" alt="image"/>
-              <div>
-                  <input type="checkbox" name="toppings[]">
-                  <label for="checkbox">Black Olives</label>
-              </div>
-              </div>
-                <div class="check">
-                  <img src="../pizza-2/img/Pepperoni.jpg" alt="image"/>
-                <div>
-                  <input type="checkbox" name="toppings[]">
-                  <label for="checkbox">Pepperoni</label>
-                </div>
-               </div>
-              </div>
-                  
-                  <div class="crust">
-                    <label for="crust">Thin</label>
-                    <input type="radio" id="crust" name="crust" value="crust">
-                    <label for="crust">Thick</label>
-                    <input type="radio" id="crust" name="crust" value="crust">
-                    <label for="size">Pan</label>
-                    <input type="radio" id="crust" name="crust" value="crust">
-                    <label for="size">Deep Dish</label>
-                    <input type="radio" id="crust" name="crust" value="crust">
-                  </div>
-                </div>                              
-                
-                <div>
-                    <label for="add1">Delivery Address</label>
-                    <input name="add1" id="add1" placeholder="Delivery Address" type="text"/>
-                </div>
-                <div>
-                  <label for="city">City</label>
-                  <input name="city" id="city" placeholder="City" type="text"/>
-                </div>
-                <div>
-                  <label for="state">State</label>
-                  <input name="state" id="state" placeholder="State" type="text"/>
-                </div>
-                <div>
-                  <label for="zip">Zip</label>
-                  <input name="zip" id="zip" placeholder="Zip" type="text"/>
-                </div>
-                <div>
-                  <label for="email">Email Address</label>
-                  <input name="emailaddress" id="email" placeholder="Email Address" type="email"/>
-                </div>
-                <div>
-                  <label for="phone">Phone Number</label>
-                  <input name="phone" id="phone" placeholder="phone" type="text"/>
-                </div>
-                <div>
-                  <label for="message">Comments</label>
-                  <textarea name="messagebody" id="message" placeholder="Write message here"></textarea>
-                </div>
-                 <div>
-                  <button type="submit">
-                    Submit
-                  </button>
-                  <button type="reset">
-                    Clear
-                  </button>
-                </div>
-              </form>
-    </body>
+    <div>
+      <label for="add1">Delivery Address</label>
+      <input name="add1" id="add1" placeholder="Delivery Address" type="text" />
+    </div>
+    <div>
+      <label for="city">City</label>
+      <input name="city" id="city" placeholder="City" type="text" />
+    </div>
+    <div>
+      <label for="state">State</label>
+      <input name="state" id="state" placeholder="State" type="text" />
+    </div>
+    <div>
+      <label for="zip">Zip</label>
+      <input name="zip" id="zip" placeholder="Zip" type="text" />
+    </div>
+    <div>
+      <label for="email">Email Address</label>
+      <input name="emailaddress" id="email" placeholder="Email Address" type="email" />
+    </div>
+    <div>
+      <label for="phone">Phone Number</label>
+      <input name="phone" id="phone" placeholder="phone" type="text" />
+    </div>
+    <div>
+      <label for="message">Comments</label>
+      <textarea name="messagebody" id="message" placeholder="Write message here"></textarea>
+    </div>
+    <div>
+      <button type="submit">
+        Submit
+      </button>
+      <button type="reset">
+        Clear
+      </button>
+    </div>
+  </form>
+</body>
