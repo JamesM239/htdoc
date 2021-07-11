@@ -1,0 +1,59 @@
+*{margin: 0; padding: 0; user-select: none;}
+
+     
+body {
+    background-color: #EEE;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+div.links {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+        
+}
+
+div.pizzasize
+{
+ font-size: large;
+}
+legend
+{
+ font-size: larger;
+}
+ul li
+{
+    display: inline-block;
+    list-style: none;
+}
+    img{
+        width: 10rem;
+    }
+    
+    .d-flex{
+        display: flex;
+    }
+    
+    .flex-row{
+        flex-direction: row;
+    }
+    
+    .check{
+        padding: 1rem;
+    }
+    
+    .bg-grey{
+        background-color: grey;
+    }
+    
+    .bg-light{
+        background-color: #eee;
+    }
+    div.d-flex flex-row bg-grey justify-center{
+        justify-content: center;
+    }
