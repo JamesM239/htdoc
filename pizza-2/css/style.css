@@ -88,3 +88,36 @@ ul li
     height: auto;
     margin: 0;
 }
+
+div.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+p.about{
+
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h1.about-us {
+    text-align: center;
+    
+}
+
+div.fb{
+            margin-bottom: 10px;
+}
+div.feedback {
+padding: 2rem;
+border-radius: 1rem;
+margin: 0.5rem;
+background-color: white;
+box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+width: 50%;
+margin: 2rem auto;
+text-align: center;
+}

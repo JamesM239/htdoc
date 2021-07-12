@@ -25,29 +25,51 @@
           </div>
             
             <form method="POST" action="https://www.stonecoldprofessor.com/pizza-contact.php">
-                <div>
+                
+              <div class="feedback">
+                <div class="fb">
+                  <label for="add1">Delivery Address</label>
+                  <input name="add1" id="add1" placeholder="Delivery Address" type="text" required />
+                </div>
+                <div class="fb">
+                  <label for="city">City</label>
+                  <input name="city" id="city" placeholder="City" type="text" required />
+                </div>
+              
+                 
+                <div class="fb">
                   <label for="first">First Name</label>
-                  <input name="firstname" id="first" placeholder="first name" type="text"/>
+                  <input name="first" id="first" placeholder="first name" type="text" />
                 </div>
-                <div>
+                <div class="fb">
                   <label for="last">Last Name</label>
-                  <input name="lastname" id="last" placeholder="last name" type="text"/>
+                  <input name="last" id="last" placeholder="last name" type="text" />
                 </div>
-                <div>
+                <div class="fb">
+                  <label for="zip">Zip</label>
+                  <input name="zip" id="zip" placeholder="Zip" type="text" required />
+                </div>
+                <div class="fb">
                   <label for="email">Email Address</label>
-                  <input name="emailaddress" id="email" placeholder="email" type="email"/>
+                  <input name="email" id="email" placeholder="Email Address" type="email" required />
                 </div>
-                <div>
-                  <label for="message">Message</label>
-                  <textarea name="messagebody" id="message" placeholder="Write message here"></textarea>
+                <div class="fb">
+                  <label for="phone">Phone Number</label>
+                  <input name="phone" id="phone" placeholder="phone" type="text" required />
                 </div>
-                <div>
+                <div class="fb">
+                  <label for="message">Comments</label>
+                  <textarea name="comments" id="message" placeholder="Write message here"></textarea>
+                </div>
+                <div class="fb">
                   <button type="submit">
-                    send
+                    Submit
                   </button>
                   <button type="reset">
-                    clear
+                    Clear
                   </button>
                 </div>
+              </div>
             </form>
+            <div class="card fb">
     </body>
