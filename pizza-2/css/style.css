@@ -54,6 +54,7 @@ ul li
     
     .bg-grey{
         background-color: grey;
+              
     }
     
     .bg-light{
@@ -66,6 +67,7 @@ ul li
 
     .mb{
         margin-bottom: 10px;
+       
     }
 
     .text-center{
@@ -81,8 +83,21 @@ ul li
     width: 50%;
     margin: 2rem auto;
     text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
 }
-
+div.crust{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    background-color: white;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
+}
 .pizza-o{
     width: 30px;
     height: auto;
