@@ -1,10 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    user-select: none;
-}
+*{margin: 0; padding: 0; user-select: none;}
 
-
+     
 body {
     margin: 0;
     padding: 0;
@@ -12,7 +8,7 @@ body {
     background-image: url("https://www.stonecoldprofessor.com/img/congruent_pentagon.png");
 }
 
-h1 {
+h1{
     margin: 10px;
 }
 
@@ -23,71 +19,71 @@ div.links {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
-
+        
 }
 
-div.pizzasize {
-    font-size: large;
+div.pizzasize
+{
+ font-size: large;
 }
-
-legend {
-    font-size: larger;
+legend
+{
+ font-size: larger;
 }
-
-ul li {
+ul li
+{
     display: inline-block;
     list-style: none;
 }
+    img{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .d-flex{
+        display: flex;
+    }
+    
+    .flex-row{
+        flex-direction: row;
+    }
+    
+    .check{
+        padding: 1rem;
+    }
+    
+    .bg-grey{
+        background-color: grey;
+    }
+    
+    .bg-light{
+        background-color: #eee;
+    }
+    
+    .justify-center{
+        justify-content: center;
+    }
 
-img {
-    width: 5rem;
-    height: 5rem;
-}
+    .mb{
+        margin-bottom: 10px;
+    }
 
-.d-flex {
-    display: flex;
-}
+    .text-center{
+        text-align: center;
+    }
 
-.flex-row {
-    flex-direction: row;
-}
-
-.check {
-    padding: 1rem;
-}
-
-.bg-grey {
-    background-color: grey;
-}
-
-.bg-light {
-    background-color: #eee;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.mb {
-    margin-bottom: 10px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.card {
+.card{
     padding: 2rem;
     border-radius: 1rem;
     margin: 0.5rem;
     background-color: white;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
     width: 50%;
     margin: 2rem auto;
     text-align: center;
 }
 
-.pizza-o {
+.pizza-o{
     width: 30px;
     height: auto;
     margin: 0;
@@ -100,7 +96,7 @@ div.about {
     height: 100%;
 }
 
-p.about {
+p.about{
 
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
@@ -109,21 +105,20 @@ p.about {
 
 h1.about-us {
     text-align: center;
-
+    
 }
 
-div.fb {
-    margin-bottom: 10px;
+div.fb{
+  margin-bottom: 10px;
 }
-
 div.feedback {
-    padding: 2rem;
-    border-radius: 1rem;
-    margin: 0.5rem;
-    background-color: white;
-    width: 40%;
-    margin: 2rem auto;
-    text-align: center;
+padding: 2rem;
+border-radius: 1rem;
+margin: 0.5rem;
+background-color: white;
+width: 40%;
+margin: 2rem auto;
+text-align: center;
 }
 
 h1.homepage {
@@ -140,17 +135,17 @@ div.exterior {
     align-items: center;
     justify-content: center;
     height: 100%;
-}
+   }
 
 div.owner {
-    font-size: large;
+   font-size: large;
     position: relative;
     bottom: 150px;
     padding: 2rem;
     border-radius: 1rem;
     margin: 1.5rem;
     background-color: white;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
     width: 50%;
     margin: 2rem auto;
     text-align: center;
@@ -161,8 +156,9 @@ p.Welcome {
     border-radius: 1rem;
     margin: 0.5rem;
     background-color: white;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
     width: 50%;
     margin: 2rem auto;
     text-align: center;
-}
+    }
+    
