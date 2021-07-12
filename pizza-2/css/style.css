@@ -195,3 +195,15 @@ div.img-contact {
     padding: 2px;
 
 }
+div.contactinfo {
+    font-size: large;
+    position: relative;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    background-color: white;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
+}
