@@ -219,9 +219,12 @@ input[type=checkbox] {
 input[type=checkbox] + label {
     display:inline-block;
     padding: 0 0 0 0px;
+    border: 2px solid transparent;
     height: 5rem;
     width: 5rem;;
     background-size: 50%;
+    background-size: 5rem 5rem;
+    background-repeat: no-repeat;
 }
 
 input[type=checkbox]:checked + label {
@@ -230,4 +233,6 @@ input[type=checkbox]:checked + label {
     width: 5rem;
     display:inline-block;
     background-size: 50%;
+    background-size: 5rem 5rem;
+    background-repeat: no-repeat;
 }
