@@ -5,6 +5,12 @@
   <title>Order Pizza-2</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
+  <style>
+
+
+
+  </style>
+
 </head>
 
 
@@ -65,33 +71,57 @@
     <div class="card">
       <h3>Toppings</h3>
     </div>
-    
-    <ul class="menu">
-      <li class="top"><input type="checkbox" id="cb1" name="toppings[]" value="extra-cheese"/>
-        <label class="topper" for="cb1">Extra Cheese<img src="./img/Cheese.jpg" alt="cheese" /></label>
-      </li>
-      <li class="top"><input type="checkbox" id="cb2" name="toppings[]" value="bacon" />
-        <label class="topper" for="cb2">Bacon<img src="./img/Bacon.jpg" alt="bacon" /></label>
-      </li>
-      <li class="top"><input type="checkbox" id="cb3" name="toppings[]" value="green-peppers" />
-        <label class="topper" for="cb3">Green Peppers<img src="./img/GreenPeppers.jpg" alt="greenpeppers" /></label>
-      </li>
-      <li class="top"><input type="checkbox" id="cb4" name="toppings[]" value="black-olives" />
-        <label class="topper" for="cb4">Black Olives<img src="./img/Olives.jpg" alt="olives" /></label>
-      </li>
-      <li class="top"><input type="checkbox" id="cb5" name="toppings[]" value="onions"/>
-        <label class="topper" for="cb5">Onions<img src="./img/Onions.jpg" alt="onion" /></label>
-      </li>
-      <li class="top"><input type="checkbox" id="cb6" name="toppings[]" value="mushrooms" />
-        <label class="topper" for="cb6">Mushrooms<img src="./img/Mushrooms.jpg" alt="mushroom" /></label>
-      </li>
-      <li class="top"><input type="checkbox" id="cb7" name="toppings[]" value="pepperioni"/>
-        <label class="topper" for="cb7">Pepperoni<img src="./img/Pepperoni.jpg" alt="pepper" /></label>
-      </li>
-      <li class="top"><input type="checkbox" id="cb8" name="toppings[]" value="sausage" />
-        <label class="topper" for="cb8">Sausage<img src="./img/Sausage.jpg" alt="sausage" /></label>
-      </li>
-    </ul>
+
+    <div class="d-flex flex-row bg-grey justify-center" style="height: 7.5rem;">
+      <div class="check">
+        <div>
+        <input type="checkbox" id="extra" name="toppings[]" value="extra-cheese">
+         <label for="extra" style="background-image: url('./img/Cheese.jpg');"></label>
+        </div>
+      </div>
+      <div class="check">
+        <div>
+          <input type="checkbox" id="smoke" name="toppings[]" value="sausage">
+          <label for="smoke" style="background-image: url('./img/Sausage.jpg');"></label>
+        </div>
+      </div>
+      <div class="check">
+        <div>
+          <input type="checkbox" id="green" name="toppings[]" value="green-peppers">
+          <label for="green" style="background-image: url('./img/GreenPeppers.jpg');"></label>
+        </div>
+      </div>
+      <div class="check">
+        <div>
+          <input type="checkbox" id="onion" name="toppings[]" value="onions">
+          <label for="onion" style="background-image: url('./img/Onions.jpg');"></label>
+        </div>
+      </div>
+      <div class="check">
+        <div>
+          <input type="checkbox" id="mush" name="toppings[]" value="mushrooms">
+          <label for="mush" style="background-image: url('./img/Mushrooms.jpg');"></label>
+        </div>
+      </div>
+      <div class="check">
+        <div>
+          <input type="checkbox" id="pork" name="toppings[]" value="bacon">
+          <label for="pork" style="background-image: url('./img/Bacon.jpg');"></label>
+        </div>
+      </div>
+      <div class="check">
+        <div>
+          <input type="checkbox" id="black" name="toppings[]" value="black-olives">
+          <label for="black" style="background-image: url('./img/Olives.jpg');"></label>
+        </div>
+      </div>
+      <div class="check">
+        <div>
+          <input type="checkbox" id="pepp" name="toppings[]" value="pepperoni">
+          <label for="pepp" style="background-image: url('./img/Pepperoni.jpg');"></label>
+        </div>
+      </div>
+    </div>
 
     <div class="card">
       <div class="mb">
