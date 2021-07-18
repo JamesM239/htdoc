@@ -1,6 +1,6 @@
 var firstadject = prompt("The _______ man walked into the * ");
 var firstnoun = prompt("The * man walked into the _____");
-var firstverb = prompt("He _____ down at the bar to order a cold drink.");
+var firstverb = prompt("He _____ at the bar to order a cold drink.");
 var secondverb = prompt("The waiter asked what he _____");
 var secondnoun = prompt("so he ordered an ice-cold ______");
 var secondadject = prompt("He paid for his _____ drink");
