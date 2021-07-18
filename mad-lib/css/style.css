@@ -1,0 +1,21 @@
+p {
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    background-color: white;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    width: 50%;
+    margin: 15rem auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
