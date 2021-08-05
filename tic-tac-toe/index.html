@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/game.js" defer></script>
+    <style>
+        body{
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgb(165, 94, 77) 7%, rgb(165, 133, 125) 100%, rgb(206, 153, 143) 36%, rgb(226, 143, 143) 45%, rgb(187, 130, 116) 26%);
+            padding: 20px 200px;
+        }
+    </style>
+    
+    <title>Tic Tac Toe</title>
+
+
+</head>
+
+<body>
+
+    <div id="tictactoe" class="tictactoe d-none">
+        <h1>Tic-Tac-Toe</h1>
+        <h3 class="turnIndicator"></h3>
+
+        <div class="board">
+            <div class="square">
+                <div class="line"></div>
+                <div class="base"></div>
+            </div>
+            <div class="square">
+                <div class="line"></div>
+                <div class="base"></div>
+            </div>
+            <div class="square">
+                <div class="line"></div>
+                <div class="base"></div>
+            </div>
+            <div class="square">
+                <div class="line"></div>
+                <div class="base"></div>
+            </div>
+            <div class="square">
+                <div class="line"></div>
+                <div class="base"></div>
+            </div>
+            <div class="square">
+                <div class="line"></div>
+                <div class="base"></div>
+            </div>
+            <div class="square">
+                <div class="line"></div>
+                <div class="base"></div>
+            </div>
+            <div class="square">
+                <div class="line"></div>
+                <div class="base"></div>
+            </div>
+            <div class="square">
+                <div class="line"></div>
+                <div class="base"></div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <button class="lower" id="restart" onclick="startGame()">Play!</button>
+    <div class="" id="userinput">
+        <input id="onename" placeholder="Player One Name" required />
+        <input id="twoname" placeholder="Player Two Name" required />
+    </div>
+
+    </div>
+
+</body>
+
+</html>
