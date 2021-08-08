@@ -1,26 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            https://jamesmuller.netlify.app/
-        </title>
-<h1>This is James Muller's page</h1>
-<p>By the End of the semester, this page will be my FINAL PROJECT with links to ALL OF MY PROJECTS</p>
 
-<div> <a href="https://jamesmuller.netlify.app/tables/index.html">Tables</a> </div>
-    
-<div> <a href="https://jamesmuller.netlify.app/image-map/index.html">Image-Map</a> </div>
-        
-<div> <a href="https://jamesmuller.netlify.app/pizza-1/index.html">Pizza-1</a> </div>
-        
-<div> <a href="https://jamesmuller.netlify.app/superheroes/">Super Heroes</a> </div>
+<head>
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
-<div> <a href="https://jamesmuller.netlify.app/horizontal-menu/">Horizontal-Menu</a> </div>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">James Muller</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="blank" href="https://jamesmuller.netlify.app/tables/index.html">YouTube Video Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="blank" href="https://jamesmuller.netlify.app/image-map/index.html">Mappin'It</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="blank" href="https://jamesmuller.netlify.app/superheroes/">Super Heroes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="blank" href="https://jamesmuller.netlify.app/little-boxes/">Little-Boxes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="blank" href="https://jamesmuller.netlify.app/horizontal-menu/">Horizontal-Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="blank" href="https://jamesmuller.netlify.app/pizza-2/">Pizza-2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="blank" href="https://jamesmuller.netlify.app/js-birthday/">Happy Birthday JS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="blank" href="https://jamesmuller.netlify.app/mad-lib/">Mad Libs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="blank"  href="https://jamesmuller.netlify.app/lottery/">Lottery Number Generator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="blank"  href="https://jamesmuller.netlify.app/tic-tac-toe/">Tic-Tac-Toe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="blank"  href="https://slcc.digication.com/csis1430/about_me/">Reflection</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container mt-5">
+        <div class="row mx-auto mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <p class="mainpage text-center">
+                        This is the compulation of my work from the semsester. I have learned a lot over the last
+                        semsester.
+                    </p>
+                </div>
+            </div>
+        </div>
         
-<div> <a href="https://jamesmuller.netlify.app/little-boxes/">Little-Boxes</a> </div>
-        
-<div> <a href="https://jamesmuller.netlify.app/pizza-2/">Pizza-2</a> </div>
-        
-<div> <a href="https://jamesmuller.netlify.app/js-birthday/">JS-Birthday</a> </div>
-      
-<div> <a href="https://jamesmuller.netlify.app/mad-lib/">Mad-Lib</a> </div>
+      </div>
+
+    <script>
+        document.getElementById('navbarSupportedContent').addEventListener("click", function(){
+            let audio = new Audio('./audio/Whoosh Transition.mp3');
+            audio.play();
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
